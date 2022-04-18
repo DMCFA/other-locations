@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Locations</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="modal">
+          <div class="modal-header">
+            <button
+              type="button"
+              class=".modal-close"
+              aria-label="Close"
+              onclick="closeModal()"
+            >
+              X
+            </button>
+          </div>
+          <div class="modal-content">
+            <label>Hi, I'm [enter name]</label>
+            <input class="name" type="text" />
+          </div>
+        </div>
+        <section class="title">
+          <h1>Other locations</h1>
+        </section>
+        <section class="content">
+          <div class="grid">
+            <div class="item full card-1">
+              <img src="images/card-1.jpg" alt="landscape photo" />
+              <div class="item-content">
+                <h2>City of york</h2>
+                <p>
+                  Go see the old Cathedral city. Our guide Mollie will be happy
+                  to tell you stories of the old streets on one of our walking
+                  tours
+                </p>
+                <button class="read-more">Read more</button>
+              </div>
+            </div>
+            <div class="item image-only card2">
+              <img
+                src="/images/card-2.jpg"
+                alt="landscape photo"
+                class="full-image"
+              />
+            </div>
+            <div class="item image-only">
+              <img src="/images/card-3.jpg" alt="landscape photo" />
+            </div>
+            <div class="item image-only">
+              <img src="/images/card-4.jpg" alt="landscape photo" />
+            </div>
+            <div class="item image-only">
+              <img src="/images/card-5.jpg" alt="landscape photo" />
+            </div>
+            <div class="item full card-6">
+              <img src="images/card-6.jpg" alt="landscape photo" />
+              <div class="item-content">
+                <h2>Conwall</h2>
+                <p>
+                  Go take a dip in the bliss that is the English sea, and enjoy
+                  all Cornwall has to offer
+                </p>
+                <button class="read-more">Read more</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
